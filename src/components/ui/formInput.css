@@ -1,0 +1,37 @@
+.formWrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+.columnMaker{
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.inlineInputs{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+
+}
+.title{
+    width:10%;
+    min-width: 200px;
+    padding-right: 50px;
+}
+
+.formInput{
+    border-radius: 5px;
+}
+.buttonWrapper{
+    padding: 5px;
+}
+.formButton{
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+}
