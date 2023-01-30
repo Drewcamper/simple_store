@@ -1,0 +1,78 @@
+.formWrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    width: 100%;    
+}
+.fixedElements{
+    border: 2px solid black;
+    border-radius: 15px;
+    /* background-color: aqua; */
+    padding: 10px;
+    width: 100%;
+}
+.columnMaker{
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    
+}
+
+.inlineInputs{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+        width: 30vw;
+
+
+}
+.title{
+    width:auto;
+    min-width: 150px;
+    padding-left: 10px;
+}
+.firstFormInput{
+    border-radius: 5px;
+    width: auto;
+    min-width:60px;
+}
+.formInput{
+    border-radius: 15px;
+    padding-right: 30px;
+}
+.buttonWrapper{
+    padding: 5px;
+    
+}
+.formButton{
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;   
+}
+.barcodeWrapper{
+    padding-left: 30px;
+}
+.commentWrapper{
+    padding-left: 100px;
+}
+.microplateTitles{
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+.comment{
+    min-width: 300px;
+    /* min-height: 100px; */
+    width: 35vw;
+    height: auto;
+    padding: 6px 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    text-align: top;
+    overflow: auto;
+    resize:vertical
+}
